@@ -22,4 +22,13 @@ public class MainMenu extends AppCompatActivity {
         Intent startNewActivity = new Intent(this, PointsScreen.class);
         startActivity(startNewActivity);
     }
+
+    public void leaderboardClick(View v){
+        Intent startNewActivity = new Intent(this, LeaderboardScreen.class);
+        startActivity(startNewActivity);
+    }
+
+
+
+
 }

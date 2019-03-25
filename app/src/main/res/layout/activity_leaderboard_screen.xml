@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".LeaderboardScreen">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/leaderboard"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-medium"
+        />
+
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/white"
+
+        >
+
+        <TextView
+            android:id="@+id/spot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:text="@string/_1"
+            android:textColor="#cecece"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/spot1"
+            android:src="@mipmap/ic_launcher"
+
+            />
+
+        <TextView
+            android:id="@+id/user1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:text="Jimmy"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-medium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:textSize="25sp"
+            android:text="300pts"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/spot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_2"
+            android:textSize="40sp"
+            android:paddingLeft="10dp"
+            android:layout_centerVertical="true"
+            android:textColor="#cecece"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_toRightOf="@+id/spot2"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/user2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img2"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:text="Anthony"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-medium"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:textSize="25sp"
+            android:text="280pts"
+            android:layout_alignParentRight="true"
+            />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:id="@+id/spot3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_3"
+            android:textSize="40sp"
+            android:paddingLeft="10dp"
+            android:layout_centerVertical="true"
+            android:textColor="#cecece"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_toRightOf="@+id/spot3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/user3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:text="Cynthia "
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-medium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:textSize="25sp"
+            android:text="258pts"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:id="@+id/spot4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_4"
+            android:textSize="40sp"
+            android:paddingLeft="10dp"
+            android:layout_centerVertical="true"
+            android:textColor="#cecece"
+            android:textStyle="bold"
+            />
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_toRightOf="@+id/spot4"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:id="@+id/user4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img4"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:text="Veronica"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-medium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:textSize="25sp"
+            android:text="235pts"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/white"
+        >
+        <TextView
+            android:id="@+id/spot5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_5"
+            android:textSize="40sp"
+            android:paddingLeft="10dp"
+            android:layout_centerVertical="true"
+            android:textColor="#cecece"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_toRightOf="@+id/spot5"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/user5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img5"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:text="Robert"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-medium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:textSize="25sp"
+            android:text="200pts"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
